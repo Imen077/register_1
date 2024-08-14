@@ -1,0 +1,85 @@
+body{
+    font-family: "Gupter";
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+main{
+     background-color: #ffffff;
+     padding: 60px 40px;
+     width: 400px;
+     border: 2px solid black;
+     box-shadow: -10px 10px 0px black;
+}
+
+h1{
+   margin: 0px;
+   font-size: 50px;
+   text-transform: uppercase;
+   font-family: "Teko", sans-serif;
+}
+
+label, input, span, button {
+   display: block;
+}
+
+p{
+   margin: 0px;
+   font-style: italic;
+   font-size: 20px;
+}
+ 
+label{
+   font-size: 20px;
+   color: rgb(105, 105, 105);
+   font-weight: 500;
+}
+
+input{
+  width: 100;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 18px;
+  border: 2px solid rgb(105, 105, 105);
+  border-radius: 10px;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+   margin-top: 20px;
+}
+
+a{
+   text-decoration: none;
+   text-align: right;
+   color: gray;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: blue;
+}
+
+button{
+   padding: 16px;
+   font-size: 20px;
+   color: white;
+   background-color: rgb(15, 13, 13);
+   margin-top: 20px;
+   border-radius: 9999px;
+}
+
+button{
+   cursor: pointer;
+}
+
+span{
+   margin-top: 16px;
+   text-align: center;
+}
